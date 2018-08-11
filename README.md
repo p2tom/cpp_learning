@@ -12,3 +12,6 @@ git config --global core.editor "code --wait"
 
 To add all files to git index:
 git add -A
+
+To change Git Config:
+git config --global -e
