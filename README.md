@@ -15,3 +15,5 @@ git add -A
 
 To change Git Config:
 git config --global -e
+
+master 1
