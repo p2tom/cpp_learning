@@ -17,3 +17,5 @@ To change Git Config:
 git config --global -e
 
 master 1
+
+master 2
