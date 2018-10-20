@@ -7,6 +7,10 @@ Person::~Person() {
   cout << "Person Destructor" << endl; 
 }
 
-void Person::OutputAge() {
-  cout << "I am " << age_ << " years old." << endl;
+void Person::OutputIdentity() {
+    cout << "I am also a person:" << endl;
+    cout << first_name_ << " " << last_name_ << endl;
+    cout << "Age: " << age_ << endl;
+    cout << "Phone: " << phone_ << endl;
+    cout << "Race: " << race_ << endl;
 }

@@ -1,4 +1,6 @@
 #include "student.h"
+#include "person.h"
+
 #include <iostream>
 
 using namespace std;
@@ -9,9 +11,9 @@ Student::~Student() {
 
 void Student::OutputIdentity() {
   cout << "I am a Student" << endl ;
+  Person::OutputIdentity();
 }
 
 void Student::OutputAge() {
-  cout << "I am a Student" << endl ;
-  Person:OutputAge();
+  cout << "Student Age:" << age_ << endl ;
 }

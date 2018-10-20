@@ -4,7 +4,6 @@
 #include <string>
 #include "person.h"
 
-
 class Student: public Person {
   public:
    Student(

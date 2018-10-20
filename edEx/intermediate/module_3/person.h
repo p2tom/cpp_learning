@@ -5,6 +5,14 @@
 
 class Person {
   public:
+    Person() : first_name_("fname"),
+          last_name_("lname"),
+          phone_(0),
+          age_(0),
+          race_("race") {
+
+          }
+
     Person(
         std::string fname, 
         std::string lname,
@@ -21,18 +29,14 @@ class Person {
 
     virtual ~Person();
 
-    std::string first_name_;
-    std::string last_name_;
+    virtual void OutputIdentity();
+    virtual void OutputAge() = 0;
 
-    virtual void OutputIdentity() = 0;
-    virtual void OutputAge();
-
-  protected:
-    int phone_;  
+    int age_;
 
   private:
-    int age_;
+    std::string first_name_;
+    std::string last_name_;
+    int phone_;  
     std::string race_;
-
 };
-

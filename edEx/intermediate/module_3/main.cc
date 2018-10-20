@@ -11,4 +11,9 @@ int main () {
                     33,
                     "Indian",
                     "C++");
+
+  student_1.OutputIdentity();
+  student_1.OutputAge();
+
+  return 0;
 } 
