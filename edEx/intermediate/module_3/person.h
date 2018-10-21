@@ -28,6 +28,8 @@ class Person {
           }
 
     virtual ~Person();
+    
+    friend std::ostream & operator << (std::ostream & os, Person & p);
 
     virtual void OutputIdentity();
     virtual void OutputAge() = 0;
