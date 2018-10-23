@@ -5,10 +5,10 @@ using namespace std;
 
 int main () {
 
-  Student student_1("Prithvi", 
+  Student student_1(33,
+                    "Prithvi", 
                     "Thomas",
                     3008580,
-                    33,
                     "Indian",
                     "C++");
 

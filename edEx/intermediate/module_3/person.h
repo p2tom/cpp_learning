@@ -5,19 +5,19 @@
 
 class Person {
   public:
-    Person() : first_name_("fname"),
+    Person() : age_(0),
+          first_name_("fname"),
           last_name_("lname"),
           phone_(0),
-          age_(0),
           race_("race") {
 
           }
 
     Person(
+        int age,
         std::string fname, 
         std::string lname,
         int phone,
-        int age,
         std::string race)
         : first_name_(fname),
           last_name_(lname),

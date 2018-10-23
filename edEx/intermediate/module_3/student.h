@@ -7,16 +7,16 @@
 class Student: public Person {
   public:
    Student(
+        int age,
         std::string fname, 
         std::string lname,
         int phone,
-        int age,
         std::string race,
         std::string course)
-        : Person(fname,
+        : Person(age,
+          fname,
           lname,
           phone,
-          age,
           race),
           course_(course) {
             
